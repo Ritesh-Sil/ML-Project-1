@@ -22,6 +22,8 @@ class DataIngestion:
     def initiate_data_ingestion(self):
         logging.info('Entered the data ingestion method or component')
         try:
+
+            ## In this area we can read from database or api complete the data ingestion
             df = pd.read_csv('C:\\Users\\silri\Applied_AI\\00_Projects\ML-Project-1\\notebooks\\data\\stud.csv')
             logging.info('Read the dataset as a data frame')
 
